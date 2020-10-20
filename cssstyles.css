@@ -429,6 +429,8 @@ header */
     width: 9rem;
     height: .1rem;
     margin: 0 auto 1rem auto;
+    /* we dont use flex box for common headers thats why we used
+    margin auto to make the lines in the middle*/
     background-color: #b85d1c;
 }
 
@@ -444,10 +446,11 @@ header */
 .rooms {
     margin-left: 8rem;
 }
-
+/* to make cards in align use flex */
 .rooms-cards-wrapper {
     display: flex;
     flex-wrap: wrap; /* This is to make the page RESPONSIVE */
+    
 }
 .room-card {
     width: 60rem;
